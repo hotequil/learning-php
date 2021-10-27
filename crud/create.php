@@ -18,5 +18,7 @@
     
     $result = mysqli_query($connection, $consult) or die("error in consult: ".mysqli_connect_error());
 
+    echo "<br>";
+
     echo "data salved in database";
 ?>
