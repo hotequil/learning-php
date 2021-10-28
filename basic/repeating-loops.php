@@ -39,6 +39,12 @@
 
                 if($index === 15) break;
             }
+
+            echo "<br> <strong>foreach</strong> <br>";
+
+            $list = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+            foreach($list as $number) echo "$number, "
         ?>
     </body>
 </html>
