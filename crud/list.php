@@ -20,6 +20,8 @@
                     <td>Curso</td>
                     <td>Semestre</td>
                     <td>Carga horária</td>
+                    <td>Editar</td>
+                    <td>Excluir</td>
                 </tr>
             </thead>
             <thbody>
@@ -36,10 +38,13 @@
                             <td>$course</td>
                             <td>$semester</td>
                             <td>$workload</td>
+                            <td><a href='save.php?code=$code' target='_self'>Editar</a></td>
+                            <td><a href='delete.php?code=$code' target='_self'>Excluir</a></td>
                         </tr>";
                     }
                 ?>
             </thbody>
         </table>
+        <a href='save.php' target='_self'>Criar</a>
     </body>
 </html>
