@@ -9,10 +9,7 @@
     <body>
         <?php
             require_once "connection.php";
-
-            function redirect(){
-                header('Location: list.php');
-            }
+            require_once "utils.php";
 
             function hasCode($value){
                 return $value !== 0;
